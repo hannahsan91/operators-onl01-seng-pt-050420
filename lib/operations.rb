@@ -10,7 +10,8 @@ def unsafe?(speed)
 		"safe"
 	end
 
-
+speed = speed.now
+puts "This is not a safe speed" unless speed == 50
 
 
 def not_safe?(speed)
